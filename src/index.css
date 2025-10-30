@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+a hr {
+  display: none;
+}
+
+a.active hr {
+  display: block;
+}
