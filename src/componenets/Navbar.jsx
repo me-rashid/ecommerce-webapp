@@ -81,10 +81,10 @@ function Navbar() {
 
             </div>
 
-            <NavLink onClick={() => setVisible(!visible)} className='py-2 pl-6 border' to="/">Home</NavLink>
-            <NavLink onClick={() => setVisible(!visible)} className='py-2 pl-6 border'  to="/collection">Collection</NavLink>
-            <NavLink onClick={() => setVisible(!visible)} className='py-2 pl-6 border'  to="/about">About</NavLink>
-            <NavLink onClick={() => setVisible(!visible)} className='py-2 pl-6 border'  to="/contact">Contact</NavLink>
+            <NavLink onClick={() => setVisible(!visible)} className='py-2 pl-6 border-b' to="/">Home</NavLink>
+            <NavLink onClick={() => setVisible(!visible)} className='py-2 pl-6 border-b'  to="/collection">Collection</NavLink>
+<NavLink onClick={() => setVisible(!visible)} className='py-2 pl-6 border-b ' to="/">Home</NavLink>
+            <NavLink onClick={() => setVisible(!visible)} className='py-2 pl-6 border-b'  to="/contact">Contact</NavLink>
 
             </div>
             </div>
